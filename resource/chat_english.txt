@@ -1,0 +1,101 @@
+"Lang"
+{
+	"Language" "English"
+
+	"Tokens"
+	{
+		//=========================================================================================
+		// DEFAULTS
+		//=========================================================================================
+		"chat_filterbutton"									"Filters"
+		"filter_joinleave"									"Joins/Leaves"
+		"filter_namechange"									"Name Changes"
+		"filter_publicchat"									"Public Chat"
+		"filter_servermsg"									"Server Messages"
+		"filter_teamchange"									"Team Changes"
+		"filter_achievement"								"Achievement Announce"
+		"chat_say"											"Say :"
+		"chat_say_team"										"Say (TEAM) :"
+		"chat_say_party"									"Say (PARTY) :"
+
+		//=========================================================================================
+		// REMOVES THE SCOREBOARD TIMELEFT TEXT TO ONLY LEAVE THE NUMBERS
+		//=========================================================================================
+		// "Scoreboard_TimeLeft"							"%s1:%s2:%s3"
+		// "Scoreboard_TimeLeftNoHours"						"%s1:%s2"
+		// "Scoreboard_NoTimeLimit"							""
+		// "Scoreboard_TimeLeftLabel"						""
+		// "Scoreboard_TimeLeftNew"							"%s1:%s2:%s3"
+		// "Scoreboard_TimeLeftNoHoursNew"					"%s1:%s2"
+		// "Scoreboard_NoTimeLimitNew"						""
+		// "Scoreboard_ChangeOnRoundEndNew"					""
+
+		//=========================================================================================
+		// SHORTER MEDIGUN NAME
+		//=========================================================================================
+		"TF_playerid_mediccharge"							"%s1%"
+		"TF_playerid_mediccharge_wpn"						"%s1% (%s2)"
+		"TF_playerid_object_upgrading"						"%s1"
+		"TF_playerid_object_upgrading_level"				"(Level %s1) %s2"
+
+		//=========================================================================================
+		// SHORTER RESPAWN LABEL
+		//=========================================================================================
+		"game_respawntime_now"								"Respawning"
+		"game_respawntime_in_sec"							"Respawn: 1"
+		"game_respawntime_in_secs"							"Respawn: %s1"
+		"game_respawntime_stalemate"						"No Respawn"
+		"game_respawntime_next_round"						""
+		"TF_Arena_NoRespawning"								"No Respawn"
+
+		//=========================================================================================
+		// SPELL ACTION KEY LABEL
+		//=========================================================================================
+		"TF_Spell_Action"									"[%use_action_slot_item%]"
+
+		//=========================================================================================
+		// DISGUISE TEAM TOGGLE LABEL
+		//=========================================================================================
+		"Hud_Menu_Spy_Minus_Toggle"							"Hit '%disguiseteam%' to Toggle Team"
+
+		//=========================================================================================
+		// TAUNT LABEL
+		//=========================================================================================
+		"Hud_Menu_Taunt_Weapon"								"Hit '%taunt%' to Taunt"
+
+		//=========================================================================================
+		// LEVEL STRINGS
+		//=========================================================================================
+
+		"TF_Competitive_LevelTier1"					"L: %s1 - T: 1"
+		"TF_Competitive_Level"						"L: %s1 - T: %s2"
+		"TF_MM_NoGC_Rank"							"TF COORDINATOR NOT FOUND."
+
+		//=========================================================================================
+		// CUSTOM MENU LABELS
+		//=========================================================================================
+
+		"StoreTitle"		"STORE"
+		"TF_Disconnect"		"DISCONNECT"
+		"TF_Quit_Title"		"QUIT"
+
+		//=========================================================================================
+		// CUSTOM STAT LABELS
+		//=========================================================================================	
+
+		"TF_NextTip"		"NEXT"	
+
+		//=========================================================================================
+		// LOADING SCREEN LABELS	
+		//=========================================================================================
+
+		"LoadingMap"		"LOADING"
+		"Gametype_CTF"		"CTF"
+		"Gametype_Koth"		"KOTH"
+		"Gametype_Escort"		"PL"
+		
+
+
+
+	}
+}

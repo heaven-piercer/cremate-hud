@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/labels/classlabel"
+	"$vertexcolor" "1"
+	"$no_fullbright" "1"
+	"$ignorez" "1"
+	"$translucent" "1"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 40 translate 0 0"
+}
