@@ -12,45 +12,15 @@
 		"tall"	"480"
 	}
 
-    "ActualPlayerStatusClassImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ActualPlayerStatusClassImageBG"
-		"xpos"			"0"		
-		"ypos"			"r200"
-		"zpos"			"-1"		
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/backgrounds/bluebg"
-	}
-
-	"AmmoBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"			"r200"		
-		"ypos"			"r200"
-		"zpos"			"-1"		
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"replay/thumbnails/backgrounds/bluebgreflected"
-	}
-
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r200"	[$WIN32]
-		"ypos"	"r200"	[$WIN32]
-		"wide"	"200"
-		"tall"	"200"
+		"xpos"	"r250"	[$WIN32]
+		"ypos"	"r250"	[$WIN32]
+		"wide"	"250"
+		"tall"	"250"
 	}
 	
 	HudObjectiveStatus
