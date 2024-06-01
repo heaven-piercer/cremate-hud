@@ -7,7 +7,9 @@ DOCS:
 borders - controls hud borders (eg. backpack items, menu popups, etc...)
 
 fonts - controls what fonts the HUD has
-fonts_bold - does nothing
+
+settings - mostly controls buttons around the hud (ABCD loadout, back buttons, etc...)
+
 icons - controls icon-specific font files, do not touch
 
 colors - controls predefined colors
