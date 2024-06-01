@@ -8,6 +8,7 @@
 		"enabled" "1"
 		"xpos"	"0"
 		"ypos"	"0"
+		"zpos"		"2"
 		"wide"	"f0"
 		"tall"	"480"
 	}
@@ -19,6 +20,7 @@
 		"enabled" "1"
 		"xpos"	"r250"	[$WIN32]
 		"ypos"	"r250"	[$WIN32]
+		"zpos"		"1"
 		"wide"	"250"
 		"tall"	"250"
 	}
