@@ -14,6 +14,21 @@
 		"image"			"replay/thumbnails/backgrounds/ammobg"	
 		"scaleImage"		"1"	
 	}
+
+	"AmmoLabel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoLabel"
+		"xpos"			"80"
+		"ypos"			"80"
+		"zpos"			"1"
+		"wide"			"250"
+		"tall"			"250"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/labels/ammolabel"
+		"scaleImage"		"1"	
+	}
 	
 	"HudWeaponLowAmmoImage"
 	{

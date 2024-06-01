@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui/replay/thumbnails/labels/classlabel"
+	"$baseTexture" "vgui/replay/thumbnails/labels/healthlabel"
 	"$vertexcolor" "1"
 	"$vertexalpha" "1"
 	"$ignorez" "1"

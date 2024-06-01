@@ -32,6 +32,21 @@
 		"scaleImage"		"1"	
 	}
 
+	"HealthLabel"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthLabel"
+		"xpos"			"-60"
+		"ypos"			"90"
+		"zpos"			"-2"
+		"wide"			"210"
+		"tall"			"210"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/labels/healthlabel"
+		"scaleImage"		"1"	
+	}
+
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
