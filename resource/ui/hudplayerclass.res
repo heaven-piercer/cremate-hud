@@ -75,19 +75,18 @@
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
-		
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"r200"	[$WIN32]
-		"zpos"			"2"		
-		"wide"			"180"
-		"tall"			"200"
+		"xpos"			"312+1"	
+		"ypos"			"c107"		
+		"zpos"			"5"		
+		"wide"			"70"
+		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"19"
+		"fov"			"12"
 		"allow_rot"		"1"
 
 		"disable_speak_event"	"1"
@@ -97,11 +96,11 @@
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "202"
+			"angles_y" "172"
 			"angles_z" "0"
-			"origin_x" "200"
-			"origin_y" "13"
-			"origin_z" "-70"
+			"origin_x" "20"
+			"origin_y" "0"
+			"origin_z" "-60"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
@@ -109,6 +108,102 @@
 		
 			"modelname"		""
 		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"10"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"0"
+				"origin_z"		"-55"
+			}
+			"Sniper"
+			{
+				"fov"			"10"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-6"
+				"origin_z"		"-65"
+			}
+			"Soldier"
+			{
+				"fov"			"12"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-10"
+				"origin_z"		"-60"
+			}
+			"Demoman"
+			{
+				"fov"			"12"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-8"
+				"origin_z"		"-60"
+			}
+			"Medic"
+			{
+				"fov"			"10"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-8"
+				"origin_z"		"-65"
+			}
+			"Heavy"
+			{
+				"fov"			"12"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-4"
+				"origin_z"		"-65"
+			}
+			"Pyro"
+			{
+				"fov"			"12"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-8"
+				"origin_z"		"-60"
+			}
+			"Spy"
+			{
+				"fov"			"10"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-8"
+				"origin_z"		"-66"
+			}
+			"Engineer"
+			{
+				"fov"			"10"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-8"
+				"origin_z"		"-55"
+			}
 		}
 	}
 
@@ -240,3 +335,4 @@
 			"auto_wide_tocontents"	"1"
 		}
 	}
+}
