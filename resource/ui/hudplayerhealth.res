@@ -38,10 +38,11 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"-2"
-		"wide"					"200"
+		"wide"					"180"
 		"tall"	 				"100"
 		"paintBackgroundType"		"3"
 		"bgcolor_override"		"ColorCyan"
+		"alpha"					"100"
 
 		"pin_to_sibling"		"HealthClassBorder"
 	}
