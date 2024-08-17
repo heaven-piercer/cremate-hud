@@ -5,8 +5,8 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"Cerbetica72"
-		"fgcolor"		"TanLight"
-		"xpos"			"0"
+		"fgcolor"		"ColorWhite"
+		"xpos"			"3"
 		"ypos"			"109"
 		"zpos"			"5"
 		"wide"			"67"
@@ -28,7 +28,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"HudFontMediumSmall"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"xpos"			"-20"
 		"ypos"			"-15"
 		"zpos"			"7"
@@ -53,7 +53,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
 		"font"			"HudFontGiantBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"ColorWhite"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -72,7 +72,21 @@
 		"ControlName"	"CExLabel"
 		"xpos"			"9999"
 		
-	}		
+	}	
+
+	"AmmoLowBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"AmmoLowBG"
+		"xpos"					"0"
+		"ypos"					"125"
+		"zpos"					"-2"
+		"wide"					"180"
+		"tall"	 				"35"
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"Transparent" //change this to red upon low ammo
+		"alpha"					"200"
+	}	
 
     "WeaponModel"
 	{

@@ -13,12 +13,24 @@
 		"tall"	"480"
 	}
 
+	"HealthClassBorder"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthClassBorder"
+		"xpos"					"232+1"
+		"ypos"					"c27"
+		"zpos"					"4"
+		"wide"					"2"
+		"tall"	 				"100"
+		"bgcolor_override"		"DarkGrey"
+	}
+
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-190"	[$WIN32]
+		"xpos"	"c-193"	[$WIN32]
 		"ypos"	"c-63"	[$WIN32]
 		"zpos"		"3"
 		"wide"	"250"
