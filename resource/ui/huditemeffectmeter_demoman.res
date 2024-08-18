@@ -5,23 +5,51 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"312"	[$WIN32]
-		"ypos"			"c55"	[$WIN32]
-		"wide"			"100"
-		"tall"			"50"
+		"xpos"			"233"	[$WIN32]
+		"ypos"			"c-2"	[$WIN32]
+		"wide"			"116"
+		"tall"			"11"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+	}
+
+	"Border"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Border"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"2"
+		"tall"	 				"100"
+		"bgcolor_override"		"DarkGrey"
+	}
+
+	"CounterBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"CounterBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"180"
+		"tall"	 				"100"
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"ColorCyan"
+		"alpha"					"100"
+
+		"pin_to_sibling"		"Border"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"32"
-		"ypos"					"27"
+		"xpos"					"10"
+		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"46"
-		"tall"					"15"
+		"tall"					"10"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
@@ -31,26 +59,26 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontSmall"
+		"font"					"Cerbetica10"
 	}
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"5"
+		"xpos"					"5"
+		"ypos"					"0+1"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"53"	
+		"wide"					"20"
+		"tall"					"10"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudClassHealth"
+		"font"					"Cerbetica12"
 	}
 }
