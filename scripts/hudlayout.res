@@ -8,21 +8,9 @@
 		"enabled" "1"
 		"xpos"	"-150"
 		"ypos"	"-80"
-		"zpos"		"2"
+		"zpos"		"-1"
 		"wide"	"f0"
 		"tall"	"480"
-	}
-
-	"HealthClassBorder"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthClassBorder"
-		"xpos"					"232+1"
-		"ypos"					"c27"
-		"zpos"					"4"
-		"wide"					"2"
-		"tall"	 				"100"
-		"bgcolor_override"		"DarkGrey"
 	}
 
 	HudWeaponAmmo
@@ -87,12 +75,8 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
+		"xpos"			"236"	[$WIN32]
+		"ypos"			"c59"	[$WIN32]
 		"wide"			"200"
 		"tall"			"100"
 	}
@@ -210,13 +194,10 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"233"	[$WIN32]
+		"ypos"					"c140"	[$WIN32]
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"11"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"

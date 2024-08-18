@@ -1,5 +1,4 @@
-#base "HudItemEffectMeter.res"
-"Resource/UI/HudRocketPack.res"
+"Resource/UI/HudItemEffectMeter.res"
 {
 	HudItemEffectMeter
 	{
@@ -39,21 +38,21 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"xpos"			"-1"
-		"ypos"			"4"
+		"xpos"			"8"
+		"ypos"			"5"
 		"zpos"			"2"
-		"wide"			"50"
+		"wide"			"90"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"JETPACK"
-		"textAlignment"	"center"
+		"labelText"		"#TF_RocketPack_Disabled"
+		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cerbetica10"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"178 0 0 255"
 	}
 
@@ -75,28 +74,5 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"		"White"
-	}
-
-	"ItemEffectMeter2"
-	{	
-		"ControlName"	"ContinuousProgressBar"
-		"fieldName"		"ItemEffectMeter2"
-		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"10"
-		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"6"				
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"fgcolor"		"White"
-
-		"pin_to_sibling"		"ItemEffectMeter"
-		"pin_to_sibling_corner"		"PIN_BOTTOMLEFT"
-	}
+	}	
 }

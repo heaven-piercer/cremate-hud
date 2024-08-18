@@ -86,13 +86,10 @@
 		"TF_NextTip"		"NEXT"	
 
 		//=========================================================================================
-		// LOADING SCREEN LABELS	
+		// IN GAME CHARGE LABELS
 		//=========================================================================================
 
-		"LoadingMap"		"LOADING"
-		"Gametype_CTF"		"CTF"
-		"Gametype_Koth"		"KOTH"
-		"Gametype_Escort"		"PL"
+		"TF_Ubercharge"		"UBER: %charge%"
 		
 
 

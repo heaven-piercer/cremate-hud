@@ -151,4 +151,29 @@
 
 		"pin_to_sibling"		"PlayerStatusHealthValue"
 	}
+
+	"MarkedForDeathAnchor"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"		"MarkedForDeathAnchor"
+		"xpos"			"250"
+		"ypos"			"120"
+	}
+	"PlayerStatusMarkedForDeathSilentImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMarkedForDeathSilentImage"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"31"
+		"tall"			"31"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/marked_for_death"
+		"fgcolor"		"TanDark"
+
+		"pin_to_sibling"		"MarkedForDeathAnchor"
+	}
 }

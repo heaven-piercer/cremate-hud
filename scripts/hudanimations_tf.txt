@@ -206,10 +206,10 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	HealthBuffedBG wide 180 Linear 0.0 0.4
+	Animate	HealthBuffedBG wide 180 Linear 0.0 0.2
 	Animate	HealthBuffedBG BgColor "ColorGreen" Accel 0.0 0.0
 
-	RunEvent HudHealthBonusPulseLoop	0.4
+	RunEvent HudHealthBonusPulseLoop	0.2
 }
 
 // call to loop HudHealthBonusPulse
@@ -231,10 +231,10 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	HealthHurtBG wide 180 Linear 0.0 0.2
+	Animate	HealthHurtBG wide 180 DeAccel 0.0 0.3
 	Animate	HealthHurtBG BgColor "ColorRed" Accel 0.0 0.0
 	
-	RunEvent HudHealthDyingPulseLoop	0.25
+	RunEvent HudHealthDyingPulseLoop	0.5
 }
 
 // call to loop HudHealthDyingPulse
@@ -245,7 +245,8 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate	HealthHurtBG BgColor "Transparent" Linear 0.0 0.2
+	Animate	HealthHurtBG wide 0 Accel 0.0 0.2
+	Animate	HealthHurtBG BgColor "Transparent" Linear 0.2 0.2
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
@@ -427,13 +428,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabelPercentage 	FgColor		"ColorCyan"		Spline 0.0 0.5
+	Animate	ChargeLabelPercentage 	FgColor		"ColorYellow"		SPline 0.5 1.0
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"ColorCyan"		Spline 0.0 0.5
+	Animate	ChargeMeter 	FgColor		"ColorYellow"		Spline 0.5 1.0
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop	1.0
 }
 
 // call to loop HudHealthBonusPulse
@@ -447,8 +448,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"ColorWhite"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"ColorWhite"		Linear 0.0 0.0001
 }
 
 //====================================
