@@ -233,6 +233,9 @@ event HudHealthDyingPulse
 {
 	Animate	HealthHurtBG wide 180 DeAccel 0.0 0.3
 	Animate	HealthHurtBG BgColor "ColorRed" Accel 0.0 0.0
+
+	Animate	HealthHurtBG BgColor "Transparent" Linear 0.3 0.6
+	Animate	HealthHurtBG BgColor "ColorRed" Linear 0.9 1.2
 	
 	RunEvent HudHealthDyingPulseLoop	0.5
 }
@@ -245,8 +248,9 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate	HealthHurtBG wide 0 Accel 0.0 0.2
-	Animate	HealthHurtBG BgColor "Transparent" Linear 0.2 0.2
+	Animate	HealthHurtBG BgColor "ColorRed" Linear 0.0 0.2
+	Animate	HealthHurtBG wide 0 Accel 0.4 0.6
+	
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 }
