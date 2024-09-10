@@ -9,7 +9,7 @@
 		"ypos"			"r250"	
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"250"
+		"tall"			"152"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"

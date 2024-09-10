@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"Cerbetica72"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"ColorWhite"
-		"xpos"			"3"
-		"ypos"			"109"
+		"alpha"			"200"
+		"xpos"			"200"
+		"ypos"			"70"
 		"zpos"			"5"
-		"wide"			"67"
-		"tall"			"70"
+		"wide"			"19"
+		"tall"			"12"
 		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"	
+		"enabled"		"1"	
 		"labelText"		"%Ammo%"
 		
 	}		
@@ -22,27 +22,45 @@
 		"ControlName"	"CExLabel"
 		"xpos"			"9999"
 		
-	}						
+	}	
+	"Divider"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Divider"
+		"font"			"HudFontSmallest"
+		"fgcolor"		"ColorWhite"
+		"alpha"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"7"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"		
+		"labelText"		"|"
+		
+		"pin_to_sibling"		"AmmoInClip"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}							
 	"AmmoInReserve"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"HudFontMediumSmall"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"ColorWhite"
-		"xpos"			"-20"
-		"ypos"			"-15"
+		"alpha"			"50"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"40"
-		"tall"			"27"
-		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"west"		
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"		
 		"labelText"		"%AmmoInReserve%"
 		
-		"pin_to_sibling"		"AmmoInClip"
-		"pin_corner_to_sibling"		"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"		"PIN_BOTTOMRIGHT"
-	}		
+		"pin_to_sibling"		"Divider"
+		"pin_to_sibling_corner"		"PIN_TOPRIGHT"
+	}			
 	"AmmoInReserveShadow"
 	{
 		"ControlName"	"CExLabel"
@@ -52,13 +70,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"HudFontGiantBold"
+		"font"			"HudFontSmallest"
 		"fgcolor"		"ColorWhite"
+		"alpha"			"200"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"200"
-		"tall"			"70"
+		"tall"			"12"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"		
@@ -72,20 +91,6 @@
 		"ControlName"	"CExLabel"
 		"xpos"			"9999"
 		
-	}	
-
-	"AmmoLowBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"AmmoLowBG"
-		"xpos"					"0"
-		"ypos"					"125"
-		"zpos"					"-2"
-		"wide"					"180"
-		"tall"	 				"35"
-		"paintBackgroundType"		"3"
-		"bgcolor_override"		"Transparent" //change this to red upon low ammo
-		"alpha"					"200"
 	}	
 
     "WeaponModel"
@@ -127,19 +132,4 @@
 			"modelname"		""
 		}
 		}
-
-    "AmmoBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoBG"
-		"xpos"			"0"		
-		"ypos"			"0"
-		"zpos"			"-1"		
-		"wide"			"200"
-		"tall"			"200"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"
-		"fillcolor"     "ColorGreen"
-	}
 }							

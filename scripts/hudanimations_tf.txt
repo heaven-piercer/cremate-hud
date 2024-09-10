@@ -248,8 +248,7 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate	HealthHurtBG BgColor "ColorRed" Linear 0.0 0.2
-	Animate	HealthHurtBG wide 0 Accel 0.4 0.6
+	Animate	HealthHurtBG wide 0 Accel 0.0 0.2
 	
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -1431,13 +1430,11 @@ event CompetitiveGame_LowerChatWindow
 
 event CompetitiveGame_RestoreChatWindow
 {
-    Animate HudChat ypos 275 Accel 0 0  //Default animation
 
-    //Fix stuck animations
-    RunEvent HudHealthDyingPulseStop 0.1
-    RunEvent HudHealthBonusPulseStop 0.1
-    RunEvent HudLowAmmoPulseStop 0.1
-    RunEvent HudMedicChargedStop 0.1
+    RunEvent Startup 0.0
+    RunEvent HudLowAmmoPulseStop 0.0
+    RunEvent HudMedicChargedStop 0.0
+	
 }
 
 event HudTournament_MoveChatWindow
@@ -2333,4 +2330,14 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
-//
+event Startup
+{
+	Animate HealthAmmoBG wide 0 linear 0.0 0.0
+	Animate HealthAmmoBG wide 180 Deaccel 0.0 0.5
+	Animate MeterBG wide 0 linear 0.0 0.0
+	Animate MeterBG wide 114 Deaccel 0.0 0.5
+	Animate CounterBG wide 0 linear 0.0 0.0
+	Animate CounterBG wide 114 Deaccel 0.0 0.5
+	Animate HealthHurtBG wide 0 linear 0.0 0.0
+	Animate HealthBuffedBG wide 0 linear 0.0 0.0
+}

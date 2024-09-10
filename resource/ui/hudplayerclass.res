@@ -14,6 +14,23 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+
+	"PlayerStatusClassImage"
+	{
+		"ControlName"	"CTFClassImage"
+		"fieldName"		"PlayerStatusClassImage"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"2"
+		"wide"			"75"
+		"wide_minmode"	"37"
+		"tall"			"75"
+		"tall_minmode"	"37"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_scoutred"
+		"scaleImage"	"1"	
+	}
 	
 	"PlayerStatusSpyImage"
 	{
