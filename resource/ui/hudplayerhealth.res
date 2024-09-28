@@ -5,11 +5,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-100"		
-		"ypos"			"r250"	
+		"xpos"			"c30"		
+		"ypos"			"r150"	
 		"zpos"			"2"
 		"wide"			"250"
-		"tall"			"152"
+		"tall"			"63"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
@@ -17,119 +17,83 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
 
-	"HealthClassBorder"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthClassBorder"
-		"xpos"					"4"
-		"ypos"					"-8"
-		"zpos"					"-1"
-		"wide"					"2"
-		"tall"	 				"100"
-		"bgcolor_override"		"DarkGrey"
-
-		"pin_to_sibling"		"PlayerStatusHealthValue"
-	}
-
-	"HealthAmmoBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthAmmoBG"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"180"
-		"tall"	 				"100"
-		"paintBackgroundType"		"3"
-		"bgcolor_override"		"ColorCyan"
-		"alpha"					"100"
-
-		"pin_to_sibling"		"HealthClassBorder"
-	}
-
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
-		"ypos"			"35"
-		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"-20"
+		"ypos"			"2"
+		"zpos"			"2"
+		"wide"			"61"
+		"tall"			"60"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"55"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"2"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"65"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
+		"drawcolor"		"150 150 150 255"
+		"pin_to_sibling"		"PlayerStatusHealthImage"
 	}
 
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
+		"xpos"			"-20"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"zpos"			"-1"
+		"wide"			"65"	[$WIN32]
+		"tall"			"65"	[$WIN32]
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"	
 	}
-
-	"HealthHurtBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthHurtBG"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"180"
-		"tall"	 				"35"
-		"paintBackgroundType"		"3"
-		"bgcolor_override"		"Transparent"
-		"alpha"					"200"
-
-		"pin_to_sibling"		"HealthAmmoBG"
-	}
-	"HealthBuffedBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthBuffedBG"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"0" //set to 180 upon overheal
-		"tall"	 				"35"
-		"paintBackgroundType"		"3"
-		"bgcolor_override"		"ColorGreen"
-		"alpha"					"200"
-
-		"pin_to_sibling"		"HealthAmmoBG"
-	}	
 	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"60"
-		"ypos"			"109"
+		"xpos"			"17"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"150"
-		"tall"			"55"
+		"tall"			"63"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
 		"font"			"HudClassHealth"
-		"fgcolor"		"ColorWhite"
+		"fgcolor"		"TanLight"
+	}
+
+	"PlayerStatusHealthValueBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"17"
+		"ypos"			"2"
+		"zpos"			"3"
+		"wide"			"150"
+		"tall"			"67"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"28 26 25 255"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
 	}
 
 	"PlayerStatusMaxHealthValue"
