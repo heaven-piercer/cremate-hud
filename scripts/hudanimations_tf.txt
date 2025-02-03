@@ -2330,14 +2330,14 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
-event Startup
-{
-	Animate HealthAmmoBG wide 0 linear 0.0 0.0
-	Animate HealthAmmoBG wide 180 Deaccel 0.0 0.5
-	Animate MeterBG wide 0 linear 0.0 0.0
-	Animate MeterBG wide 114 Deaccel 0.0 0.5
-	Animate CounterBG wide 0 linear 0.0 0.0
-	Animate CounterBG wide 114 Deaccel 0.0 0.5
-	Animate HealthHurtBG wide 0 linear 0.0 0.0
-	Animate HealthBuffedBG wide 0 linear 0.0 0.0
-}
+//event Startup
+//{
+//	Animate HealthAmmoBG wide 0 linear 0.0 0.0
+//	Animate HealthAmmoBG wide 180 Deaccel 0.0 0.5
+//	Animate MeterBG wide 0 linear 0.0 0.0
+//	Animate MeterBG wide 114 Deaccel 0.0 0.5
+//	Animate CounterBG wide 0 linear 0.0 0.0
+//	Animate CounterBG wide 114 Deaccel 0.0 0.5
+//	Animate HealthHurtBG wide 0 linear 0.0 0.0
+//	Animate HealthBuffedBG wide 0 linear 0.0 0.0
+//}

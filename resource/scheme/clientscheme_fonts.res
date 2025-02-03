@@ -10,7 +10,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"72"
 				"additive"		"0"
 				"antialias"		"1"
@@ -21,7 +21,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"64"
 				"additive"		"0"
 				"antialias"		"1"
@@ -32,7 +32,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"56"
 				"additive"		"0"
 				"antialias"		"1"
@@ -42,47 +42,95 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"40"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
+		"Shadow40"
+		{
+			"1"
+			{
+				"name"			"Dimitri"
+				"tall"			"40"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		"Cerbetica32"
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
-				"tall"			"28"
+				"name"			"Dimitri Swank"
+				"tall"			"32"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
+		"Shadow32"
+		{
+			"1"
+			{
+				"name"			"Dimitri"
+				"tall"			"32"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		"Cerbetica28"
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"28"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
+		"Shadow28"
+		{
+			"1"
+			{
+				"name"			"Dimitri"
+				"tall"			"28"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		"Cerbetica24"
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 		}
+
+		"Shadow24"
+		{
+			"1"
+			{
+				"name"			"Dimitri"
+				"tall"			"24"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+
 		"Cerbetica24Outline"
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"additive"		"0"
 				"antialias"		"1"
@@ -93,7 +141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"additive"		"0"
 				"antialias"		"1"
@@ -103,7 +151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"additive"		"0"
 				"antialias"		"1"
@@ -113,7 +161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"16"
 				"additive"		"0"
 				"antialias"		"1"
@@ -123,7 +171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias"		"1"
@@ -133,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
@@ -143,7 +191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -153,7 +201,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -163,7 +211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"6"
 				"additive"		"0"
 				"antialias"		"1"
@@ -173,7 +221,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"4"
 				"additive"		"0"
 				"antialias"		"1"
@@ -184,7 +232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"8"
 				"additive"		"0"
 				"antialias"		"1"
@@ -196,14 +244,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"additive"		"0"
 				"antialias"		"1"
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"range"			"0x0000 0x00FF"
 				"weight"		"800"
@@ -213,7 +261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -224,7 +272,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"underline"		"1"
@@ -232,7 +280,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -242,7 +290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -250,7 +298,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -258,7 +306,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -267,7 +315,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -276,7 +324,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"22"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -285,7 +333,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -295,7 +343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -303,7 +351,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -311,7 +359,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -320,7 +368,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -329,7 +377,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -341,7 +389,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -349,7 +397,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"21"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -357,7 +405,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"22"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -366,7 +414,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"28"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -375,7 +423,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"30"
 				"weight"		"900"
 				"range"			"0x0000 0x017F"
@@ -384,14 +432,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -402,7 +450,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"name"			"Helvetica" [$OSX]
 				"tall"			"18"
 				"weight"		"900"
@@ -415,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -427,7 +475,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"700"
 				"yres"			"480 599"
@@ -466,7 +514,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -475,7 +523,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"32"
 				"weight"		"500"
 				"additive"		"0"
@@ -484,7 +532,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -493,7 +541,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"48"
 				"weight"		"500"
 				"additive"		"0"
@@ -502,7 +550,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -514,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"44"
 				"weight"		"500"
 				"additive"		"0"
@@ -525,7 +573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -536,7 +584,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"35"
 				"weight"		"500"
 				"additive"		"0"
@@ -547,7 +595,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -558,7 +606,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"30"
 				"weight"		"500"
 				"additive"		"0"
@@ -569,7 +617,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -580,7 +628,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
@@ -591,7 +639,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -602,7 +650,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -613,7 +661,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -624,7 +672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -635,7 +683,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -646,7 +694,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"16"
 				"weight"		"500"
 				"additive"		"0"
@@ -657,7 +705,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -668,7 +716,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -680,7 +728,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -691,7 +739,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -703,7 +751,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -715,7 +763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -727,7 +775,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"additive"		"0"
 				"antialias"		"1"
@@ -738,7 +786,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"16"
 				//"weight"		"500"
 				"additive"		"0"
@@ -749,7 +797,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"0"
@@ -760,7 +808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -771,7 +819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"9"
 				"weight"		"0"
 				"additive"		"0"
@@ -782,7 +830,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"400"
 				"additive"		"0"
@@ -794,7 +842,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -866,7 +914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -878,7 +926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"52"
 				"weight"		"500"
 				"additive"		"0"
@@ -936,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -946,7 +994,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"15"
 				"weight"		"700"
 				"antialias" 	"1"
@@ -956,7 +1004,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -965,7 +1013,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"21"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -974,7 +1022,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"1000"
 				"antialias" 	"1"
@@ -1056,7 +1104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1067,7 +1115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1079,7 +1127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1090,7 +1138,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1102,7 +1150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"16"
 				"antialias" 	"1"
 				"weight"		"900"
@@ -1137,7 +1185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1147,7 +1195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1157,7 +1205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"antialias" 	"1"
 				"weight"		"500"
@@ -1180,7 +1228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"28"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1191,7 +1239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"40"
 				"antialias"		"1"
 				"custom"		"1" [$OSX]
@@ -1202,7 +1250,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"antialias" 	"1"
 				"custom"		"1" [$OSX]
@@ -1213,7 +1261,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"antialias"		"1"
@@ -1237,7 +1285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1248,7 +1296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1259,7 +1307,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1271,7 +1319,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1283,7 +1331,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1295,7 +1343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1307,7 +1355,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1319,7 +1367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"34"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1342,7 +1390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"52"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1351,7 +1399,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"72"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1360,7 +1408,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"100"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1369,7 +1417,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"140"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1378,7 +1426,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"180"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"400"
@@ -1391,7 +1439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"36"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -1403,7 +1451,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1414,7 +1462,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"20"
 				"weight"		"400"
 				"additive"		"0"
@@ -1426,7 +1474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"400"
 				"additive"		"0"
@@ -1438,7 +1486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1449,7 +1497,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"7"
 				"weight"		"400"
 				"additive"		"0"
@@ -1461,7 +1509,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1615,7 +1663,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
@@ -1627,7 +1675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1639,7 +1687,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"500"
 				"range"			"0x0000 0x017F"
@@ -1688,7 +1736,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"36"
 				"weight"		"500"
 			}
@@ -1697,7 +1745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"30"
 				"weight"		"500"
 			}
@@ -1706,7 +1754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"28"
 				"weight"		"500"
 			}
@@ -1715,7 +1763,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"22"
 				"weight"		"900"
 			}
@@ -1724,7 +1772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"900"
 			}
@@ -1733,7 +1781,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"22"
 				"weight"		"500"
 			}
@@ -1742,7 +1790,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 			}
@@ -1780,7 +1828,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"36"
 				"weight"		"500"
 				"additive"		"0"
@@ -1791,7 +1839,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"600"
 				"additive"		"0"
@@ -1803,7 +1851,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"400"
 				"additive"		"0"
@@ -1815,7 +1863,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"900"
 				"antialias" 	"1"
@@ -1849,7 +1897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -1893,7 +1941,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
@@ -1904,7 +1952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"9"
 				"weight"		"500"
 				"additive"		"0"
@@ -1915,7 +1963,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -1926,7 +1974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -1937,7 +1985,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"6"
 				"weight"		"500"
 				"additive"		"0"
@@ -1948,7 +1996,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"8"
 				"antialias"		"1"
 				"weight"		"500"
@@ -1958,7 +2006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"7"
 				"weight"		"500"
 				"additive"		"0"
@@ -1969,7 +2017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -1980,7 +2028,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"11"
 				"weight"		"500"
 				"additive"		"0"
@@ -1992,7 +2040,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"500"
 				"additive"		"0"
@@ -2003,7 +2051,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"500"
 				"blur"			"3"
@@ -2015,7 +2063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"0"
 				"additive"		"1"
@@ -2374,7 +2422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2438,7 +2486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2449,7 +2497,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2460,7 +2508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2471,7 +2519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2482,7 +2530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"18"
 				"weight"		"500"
 				"additive"		"0"
@@ -2495,7 +2543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"14"
 				"weight"		"500"
 				"additive"		"0"
@@ -2506,7 +2554,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"24"
 				"weight"		"500"
 				"additive"		"0"
@@ -2518,7 +2566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"15"
 				"weight"		"500"
 				"range"			"0x0000 0x007F"
@@ -2531,7 +2579,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"10"
 				"weight"		"400"
 				"additive"		"0"
@@ -2543,7 +2591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"antialias" 	"1"
@@ -2554,7 +2602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"blur"			"3"
@@ -2567,7 +2615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Forevs Demo"
+				"name"			"Dimitri Swank"
 				"tall"			"12"
 				"weight"		"500"
 				"additive"		"0"
@@ -2650,8 +2698,14 @@ Scheme
 	{
 		"1"
 		{
-			"font" 	"resource/fonts/forevsdemo-bold.otf"
-			"name" 	"Forevs Demo"
+			"font" 	"resource/fonts/DIMIS___.ttf"
+			"name" 	"Dimitri Swank"
+		}
+
+		"1"
+		{
+			"font" 	"resource/fonts/DIMITRI_.ttf"
+			"name" 	"Dimitri"
 		}
 	}
 }

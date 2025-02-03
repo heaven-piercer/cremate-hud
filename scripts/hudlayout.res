@@ -6,11 +6,66 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"-150"
-		"ypos"	"-80"
+		"xpos"	"0"
+		"ypos"	"0"
 		"zpos"		"-1"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+
+	"HealthAmmoBorderR"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthAmmoBorderR"
+		"xpos"					"c-100"
+		"ypos"					"c27"
+		"zpos"					"-1"
+		"wide"					"2"
+		"tall"	 				"35"
+		"bgcolor_override"		"DarkGrey"
+	}
+
+	"HealthAmmoBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthAmmoBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"200"
+		"tall"	 				"35"
+		"bgcolor_override"		"ColorCyan"
+		"alpha"					"50"
+
+		"pin_to_sibling"		"HealthAmmoBorderR"
+	}
+
+	"HealthAmmoBorderMid"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthAmmoBorderMid"
+		"xpos"					"c-1"
+		"ypos"					"c30"
+		"zpos"					"-1"
+		"wide"					"2"
+		"tall"	 				"20"
+		"bgcolor_override"		"DarkGrey"
+	}
+
+	"HealthAmmoBorderL"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthAmmoBorderL"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"2"
+		"tall"	 				"35"
+		"bgcolor_override"		"DarkGrey"
+
+		pin_to_sibling "HealthAmmoBG"
+		pin_to_sibling_corner "PIN_TOPRIGHT"
+		pin_corner_to_sibling "PIN_TOPLEFT"
 	}
 
 	HudWeaponAmmo
@@ -19,9 +74,9 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c-193"	[$WIN32]
-		"ypos"	"c-63"	[$WIN32]
+		"ypos"	"c0"	[$WIN32]
 		"zpos"		"3"
-		"wide"	"250"
+		"wide"	"350"
 		"tall"	"250"
 	}
 	
