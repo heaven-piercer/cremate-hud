@@ -8,28 +8,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"ypos_minmode"	"18"
-		"zpos"			"3"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"		
-	}
-
-	"PlayerStatusClassImage"
-	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
-		"zpos"			"2"
-		"wide"			"75"
-		"wide_minmode"	"37"
-		"tall"			"75"
-		"tall_minmode"	"37"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
 	}
 	
 	"PlayerStatusSpyImage"
@@ -88,6 +71,65 @@
 		"xpos"			"9999"
 	}
 
+	"Border"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Border"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6"
+		"wide"					"70"
+		"tall"	 				"2"
+		"bgcolor_override"		"DarkGrey"
+
+		"pin_to_sibling"		"classmodelpanel"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+	}
+	
+	"Border2"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Border2"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6"
+		"wide"					"70"
+		"tall"	 				"2"
+		"bgcolor_override"		"DarkGrey"
+
+		"pin_to_sibling"		"classmodelpanel"
+	}
+
+	"Border3"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"Border3"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"6"
+		"wide"					"2"
+		"tall"	 				"35"
+		"bgcolor_override"		"DarkGrey"
+
+		"pin_to_sibling"		"classmodelpanel"
+	}
+
+	"classmodelpanelBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"classmodelpanelBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"70"
+		"tall"	 				"36"
+		"bgcolor_override"		"ColorCyan"
+		alpha 100
+
+		"pin_to_sibling"		"classmodelpanel"
+	}
+
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
@@ -96,7 +138,7 @@
 		"ypos"			"c107"		
 		"zpos"			"5"		
 		"wide"			"70"
-		"tall"			"100"
+		"tall"			"36"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -133,23 +175,23 @@
 			}
 			"Scout"
 			{
-				"fov"			"10"
+				"fov"			"12"
+				"angles_x"		"0"
+				"angles_y"		"175"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-2"
+				"origin_z"		"-61"
+			}
+			"Sniper"
+			{
+				"fov"			"12"
 				"angles_x"		"0"
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"0"
-				"origin_z"		"-55"
-			}
-			"Sniper"
-			{
-				"fov"			"10"
-				"angles_x"		"0"
-				"angles_y"		"175"
-				"angles_z"		"0"
-				"origin_x"		"150"
-				"origin_y"		"-6"
-				"origin_z"		"-65"
+				"origin_z"		"-75"
 			}
 			"Soldier"
 			{
@@ -158,8 +200,8 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-10"
-				"origin_z"		"-60"
+				"origin_y"		"-5"
+				"origin_z"		"-66"
 			}
 			"Demoman"
 			{
@@ -168,18 +210,18 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-8"
-				"origin_z"		"-60"
+				"origin_y"		"-4"
+				"origin_z"		"-69"
 			}
 			"Medic"
 			{
-				"fov"			"10"
+				"fov"			"12"
 				"angles_x"		"0"
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-8"
-				"origin_z"		"-65"
+				"origin_y"		"-4"
+				"origin_z"		"-73"
 			}
 			"Heavy"
 			{
@@ -188,8 +230,8 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-4"
-				"origin_z"		"-65"
+				"origin_y"		"-2"
+				"origin_z"		"-76"
 			}
 			"Pyro"
 			{
@@ -198,8 +240,8 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-8"
-				"origin_z"		"-60"
+				"origin_y"		"-2"
+				"origin_z"		"-65"
 			}
 			"Spy"
 			{
@@ -208,8 +250,8 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-8"
-				"origin_z"		"-66"
+				"origin_y"		"0"
+				"origin_z"		"-74"
 			}
 			"Engineer"
 			{
@@ -218,8 +260,8 @@
 				"angles_y"		"175"
 				"angles_z"		"0"
 				"origin_x"		"150"
-				"origin_y"		"-8"
-				"origin_z"		"-55"
+				"origin_y"		"-4"
+				"origin_z"		"-65"
 			}
 		}
 	}

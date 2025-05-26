@@ -248,7 +248,8 @@ event HudHealthDyingPulseLoop
 
 event HudHealthDyingPulseStop
 {
-	Animate	HealthHurtBG wide 0 Accel 0.0 0.2
+	Animate	HealthHurtBG BgColor "ColorRed" Linear 0.0 0.2
+	Animate	HealthHurtBG wide 0 Accel 0.2 0.4
 	
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
@@ -258,9 +259,13 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	AmmoLowBG BgColor "ColorRed" Linear 0.0 0.2
+	Animate	HudAmmoLowBG wide 180 Deaccel 0.0 0.2
+	Animate	HudAmmoLowBG BgColor "ColorRed" Linear 0.0 0.2
+
+	Animate	HudAmmoLowBG BgColor "Transparent" Linear 0.3 0.6
+	Animate	HudAmmoLowBG BgColor "ColorRed" Linear 0.9 1.2
 	
-	RunEvent HudLowAmmoPulseLoop	0.2
+	RunEvent HudLowAmmoPulseLoop	0.5
 }
 
 // call to loop HudLowAmmoPulse
@@ -271,7 +276,8 @@ event HudLowAmmoPulseLoop
 
 event HudLowAmmoPulseStop
 {
-	Animate	AmmoLowBG BgColor "Transparent" Linear 0.0 0.2
+	Animate	HudAmmoLowBG BgColor "ColorRed" Linear 0.0 0.2
+	Animate	HudAmmoLowBG wide 0 Accel 0.2 0.4
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
 }
@@ -1430,11 +1436,13 @@ event CompetitiveGame_LowerChatWindow
 
 event CompetitiveGame_RestoreChatWindow
 {
+    Animate HudChat ypos 275 Accel 0 0  //Default animation
 
-    RunEvent Startup 0.0
-    RunEvent HudLowAmmoPulseStop 0.0
-    RunEvent HudMedicChargedStop 0.0
-	
+    //Fix stuck animations
+    RunEvent HudHealthDyingPulseStop 0.1
+    RunEvent HudHealthBonusPulseStop 0.1
+    RunEvent HudLowAmmoPulseStop 0.1
+    RunEvent HudMedicChargedStop 0.1
 }
 
 event HudTournament_MoveChatWindow
@@ -2330,14 +2338,4 @@ event DelayQuestMapClose
 	FireCommand	1.0 "close"
 }
 
-//event Startup
-//{
-//	Animate HealthAmmoBG wide 0 linear 0.0 0.0
-//	Animate HealthAmmoBG wide 180 Deaccel 0.0 0.5
-//	Animate MeterBG wide 0 linear 0.0 0.0
-//	Animate MeterBG wide 114 Deaccel 0.0 0.5
-//	Animate CounterBG wide 0 linear 0.0 0.0
-//	Animate CounterBG wide 114 Deaccel 0.0 0.5
-//	Animate HealthHurtBG wide 0 linear 0.0 0.0
-//	Animate HealthBuffedBG wide 0 linear 0.0 0.0
-//}
+//

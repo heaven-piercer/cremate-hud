@@ -17,6 +17,8 @@ Scheme
 		"ColorGreyMid"				"128 128 128 255"
 		"ColorWhite"				"255 255 255 255"
 		"DullWhite"					"132 132 132 255"
+
+		"ColorGrey"					"141 141 141 255"
 		"Grey"						"51 47 46 255"
 		"DarkGrey"					"27 27 27 255"
 		"DarkerGrey"				"22 22 22 255"

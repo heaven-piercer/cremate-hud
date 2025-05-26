@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"233"	
-		"ypos"			"c12"
+		"ypos"			"c86"
 		"zpos"			"3"	
 		"wide"			"116"
 		"tall"			"11"
@@ -28,7 +28,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"MeterBG"
-		"xpos"					"0"
+		"xpos"					"2"
 		"ypos"					"0"
 		"zpos"					"-2"
 		"wide"					"180"

@@ -120,7 +120,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Cerbetica10"
+			"font"			"Cerbetica12"
 		}		
 	}
 	
@@ -153,7 +153,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"Cerbetica10"
+			"font"			"Cerbetica12"
 		}	
 
 		"PipeLabel"

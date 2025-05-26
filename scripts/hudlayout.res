@@ -6,66 +6,28 @@
 		"fieldName" "HudPlayerStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
+		"xpos"	"-150"
+		"ypos"	"-60"
 		"zpos"		"-1"
 		"wide"	"f0"
 		"tall"	"480"
 	}
 
-	"HealthAmmoBorderR"
+	"crosshair"
 	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthAmmoBorderR"
-		"xpos"					"c-100"
-		"ypos"					"c27"
-		"zpos"					"-1"
-		"wide"					"2"
-		"tall"	 				"35"
-		"bgcolor_override"		"DarkGrey"
-	}
-
-	"HealthAmmoBG"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthAmmoBG"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"200"
-		"tall"	 				"35"
-		"bgcolor_override"		"ColorCyan"
-		"alpha"					"50"
-
-		"pin_to_sibling"		"HealthAmmoBorderR"
-	}
-
-	"HealthAmmoBorderMid"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthAmmoBorderMid"
-		"xpos"					"c-1"
-		"ypos"					"c30"
-		"zpos"					"-1"
-		"wide"					"2"
-		"tall"	 				"20"
-		"bgcolor_override"		"DarkGrey"
-	}
-
-	"HealthAmmoBorderL"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HealthAmmoBorderL"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-1"
-		"wide"					"2"
-		"tall"	 				"35"
-		"bgcolor_override"		"DarkGrey"
-
-		pin_to_sibling "HealthAmmoBG"
-		pin_to_sibling_corner "PIN_TOPRIGHT"
-		pin_corner_to_sibling "PIN_TOPLEFT"
+		"visible"			"1"
+		"enabled"			"1"
+		"controlName"		"CExLabel"
+		"fieldName"			"crosshair"
+		"zpos"				"0"
+		"xpos"				"cs-0.5"
+		"ypos"				"cs-0.5"
+		"wide"				"f0"
+		"tall"				"f0"
+		"font"				"Size25"
+		"textAlignment"		"center"
+		"fgcolor"			"ColorWhite"
+		"labelText"			"T"
 	}
 
 	HudWeaponAmmo
@@ -73,11 +35,11 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-193"	[$WIN32]
-		"ypos"	"c0"	[$WIN32]
+		"xpos"	"cs-1-2"	[$WIN32]
+		"ypos"	"c10"	[$WIN32]
 		"zpos"		"3"
-		"wide"	"350"
-		"tall"	"250"
+		"wide"	"80"
+		"tall"	"20"
 	}
 	
 	HudObjectiveStatus
@@ -141,10 +103,15 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"240"	[$WIN32]
-		"ypos"			"c100"	[$WIN32]
-		"zpos"			"4"			// draw in front of ammo
-		"wide"			"150"
+		"xpos"			"r80"	[$WIN32]
+		"xpos_minmode"	"r52"	[$WIN32]
+		"ypos"			"r21"	[$WIN32]
+		"ypos_minmode"	"r40"	[$WIN32]
+		"xpos"			"r112"	[$X360]
+		"ypos"			"r45"	[$X360]
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"60"
+		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -245,7 +212,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"233"	[$WIN32]
-		"ypos"					"c12"	[$WIN32]
+		"ypos"					"c86"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"11"
 		"visible" 				"1"
@@ -285,8 +252,8 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"233"	[$WIN32]
-		"ypos"		"c70"	[$WIN32]
+		"xpos"		"10"	[$WIN32]
+		"ypos"		"r70"	[$WIN32]
 		"xpos"		"50"	[$X360]
 		"ypos"		"330"	[$X360]
 		"wide"		"500"
@@ -1095,7 +1062,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"233"	[$WIN32]
-		"ypos"			"c12"	[$WIN32]
+		"ypos"			"c86"	[$WIN32]
 		"wide"			"116"
 		"tall"			"11"
 	}	

@@ -5,17 +5,45 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-100"		
-		"ypos"			"c27"	
+		"xpos"			"c-45"		
+		"ypos"			"c107"	
 		"zpos"			"2"
-		"wide"			"100"
-		"tall"			"35"
+		"wide"			"250"
+		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
+
+	"HealthClassBorder"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthClassBorder"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-1"
+		"wide"					"2"
+		"tall"	 				"100"
+		"bgcolor_override"		"DarkGrey"
+	}
+
+	"HealthAmmoBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthAmmoBG"
+		"xpos"					"2"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"180"
+		"tall"	 				"100"
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"ColorCyan"
+		"alpha"					"100"
+
+		"pin_to_sibling"		"HealthClassBorder"
+	}
 
 	"PlayerStatusHealthImage"
 	{
@@ -53,59 +81,53 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"9999"
 	}
+
+	"HealthHurtBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthHurtBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"180"
+		"tall"	 				"36"
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"Transparent"
+		"alpha"					"200"
+
+		"pin_to_sibling"		"HealthAmmoBG"
+	}
+	"HealthBuffedBG"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"HealthBuffedBG"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"-2"
+		"wide"					"0" //set to 180 upon overheal
+		"tall"	 				"36"
+		"paintBackgroundType"		"3"
+		"bgcolor_override"		"ColorGreen"
+		"alpha"					"200"
+
+		"pin_to_sibling"		"HealthAmmoBG"
+	}	
 	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"25"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"150"
-		"tall"			"42"
+		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"west"	
-		"font"			"Cerbetica40"
+		"font"			"HudClassHealth"
 		"fgcolor"		"ColorWhite"
-	}
-
-	"PlayerStatusHealthShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthShadow"
-		"xpos"			"2"
-		"ypos"			"-2"
-		"zpos"			"5"
-		"wide"			"150"
-		"tall"			"42"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"west"	
-		"font"			"Cerbetica40"
-		"fgcolor"		"ColorBlack"
-		alpha 225
-		pin_to_sibling	playerstatushealthvalue
-	}
-
-	"HealthLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HealthLabel"
-		"xpos"			"5"
-		"ypos"			"-10"
-		"zpos"			"5"
-		"wide"			"150"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"healtH"
-		"textAlignment"	"west"	
-		"font"			"Shadow28"
-		"fgcolor"		"ColorBlack"
-		alpha 150
 	}
 
 	"PlayerStatusMaxHealthValue"
@@ -117,8 +139,8 @@
 		"zpos"			"6"
 		"wide"			"25"
 		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%MaxHealth%"
 		"textAlignment"	"west"	
 		"font"			"Cerbetica4"
